@@ -2,7 +2,7 @@
 
 Aplicação de linha de comando desenvolvida em linguagem C para gerenciamento de tarefas.
 
-Este projeto foi desenvolvido como parte do meu portfólio de programação, com o objetivo de praticar fundamentos da linguagem C, organização de código, manipulação de arquivos e persistência de dados.
+Este projeto foi desenvolvido como parte do meu portfólio de programação, com o objetivo de praticar fundamentos da linguagem C, organização de código, modularização, manipulação de arquivos e persistência de dados.
 
 ## Funcionalidades
 
@@ -27,12 +27,10 @@ Este projeto foi desenvolvido como parte do meu portfólio de programação, com
 
 ```text
 gerenciador_de_tarefas_em_C/
-│
 ├── src/
-│   ├── Main.c
+│   ├── main.c
 │   ├── tarefas.c
 │   └── tarefas.h
-│
 ├── README.md
 ├── .gitignore
 └── LICENSE
@@ -73,13 +71,13 @@ As tarefas são armazenadas em memória durante a execução e salvas em um arqu
 ### 1. Clone o repositório
 
 ```bash
-git clone URL_DO_SEU_REPOSITORIO
+git clone https://github.com/flavioxspider/gerenciador-de-tarefas-em-c.git
 ```
 
 ### 2. Entre na pasta do projeto
 
 ```bash
-cd gerenciador_de_tarefas_em_C
+cd gerenciador-de-tarefas-em_C
 ```
 
 ### 3. Compile o programa
@@ -87,7 +85,7 @@ cd gerenciador_de_tarefas_em_C
 Com o GCC instalado:
 
 ```bash
-gcc src/Main.c src/tarefas.c -o gerenciador
+gcc src/main.c src/tarefas.c -o gerenciador
 ```
 
 ### 4. Execute
@@ -98,7 +96,7 @@ No Windows:
 gerenciador.exe
 ```
 
-No Linux:
+No Linux/macOS:
 
 ```bash
 ./gerenciador
